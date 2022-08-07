@@ -6,7 +6,7 @@ const ingredients = [
   'Herbs',
   'Condiments',
 ];
-const totalCategories = document.querySelector("#ingredients");
+const total = document.querySelector("#ingredients");
 
 const elements = ingredients.map(ingredient => {
 const elementLi = document.createElement('li');
@@ -16,6 +16,6 @@ const elementLi = document.createElement('li');
   return elementLi;
 });
 
-totalCategories.append(...elements);
+total.append(...elements);
 
-console.log(totalCategories);
+console.log(total);
