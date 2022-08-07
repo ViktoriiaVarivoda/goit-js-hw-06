@@ -23,6 +23,7 @@ button {
   cursor: pointer;
 }
 
-.picture {
-  width: 50px;
+.picture img{
+  width: 640px;
+  margin-top: 30px;
 }
